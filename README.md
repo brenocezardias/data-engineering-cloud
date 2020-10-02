@@ -5,7 +5,6 @@ Este repositório contém um projeto para o desafio técnico de criar um process
   1. É necessário ter uma conta no GPC, e acesso ao terminal.
      Para esse desafio, instalei algumas ferramentas no ambiente, que estão em [Config](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Config)
   >  Esse código foi testado no Python 3.7.3
-  
      Se for necessário instalar as ferramentas, pode ser feito através do seguinte comando (com o arquivo em sua máquina):
   
      `pip install -r ferramentas_instaladas.txt`

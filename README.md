@@ -15,9 +15,10 @@ Este repositório contém um projeto para o desafio técnico de criar um process
   1. É necessário ter uma conta no GPC, e acesso ao terminal.
      Para esse desafio, instalei algumas ferramentas no ambiente, que estão em [Config](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Config)
   >  Esse código foi testado no Python 3.7.3
+  
      Se for necessário instalar as ferramentas, pode ser feito através do seguinte comando (com o arquivo em sua máquina):
   
-     `pip install -r ferramentas_instaladas.txt`
+     pip install -r ferramentas_instaladas.txt
   
   2. Antes de iniciar o processo de ingestão dos dados no banco, é necessário criar as 3 tabelas no BigQuery (GPC). Para isso, olhar o schema de cada tabela em
      [Config](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Config)

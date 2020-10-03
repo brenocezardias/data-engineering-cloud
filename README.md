@@ -27,6 +27,8 @@ Este repositório contém um projeto para o desafio técnico de criar um process
 ## Visualização
   Para visualização dos dados inseridos no banco, é possível ver os relatórios em 
   [Visualização](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Visualiza%C3%A7%C3%A3o)
+  
+  
   ou apenas acesse através dos links abaixo:
   
   **PRICE QUOTE:**

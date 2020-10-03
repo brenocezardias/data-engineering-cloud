@@ -3,6 +3,7 @@ Este repositório contém um projeto para o desafio técnico de criar um process
 
 # Infraestrutura e ferramentas utilizadas
   1. Google Cloud (GPC): 
+  
     - Data Flow (Ferramenta para ingestão dos dados no banco de dados), 
     - Storage (Repositório dos arquivos CSV), 
     - Big Query (Banco de dados), 
@@ -37,7 +38,7 @@ Este repositório contém um projeto para o desafio técnico de criar um process
 ## Rodando os scripts
   
   1. Com o ambiente inciado, basta utilizar o script python, para que o processo de ingestão inicie, e o Job seja enviado para o Data Flow.
-  Veja o scritp em [Scripts]()
+  Veja o scritp em [Script](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Script)
   
   2. Antes da execução, é necessário configurar os dados de destino no script, que correspondem ao seu projeto no GPC, segue abaixo os trechos:
   Linhas 66, 74, 80, 81, 82 ,83 ,84, 158, 166, 172, 173, 174, 175, 176, 247, 255, 261, 262, 263, 264, 265

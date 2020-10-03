@@ -1,6 +1,11 @@
 # Desafio ingestão de dados - Dotz
 Este repositório contém um projeto para o desafio técnico de criar um processo de ingestão de dados com as ferramentas do Google Cloud (GPC).
 
+# Infraestrutura e ferramentas utilizadas
+  1. Google Cloud (GPC): Data Flow, Storage, Big Query, Data Studio.
+  2. Python.
+  3. Apache Beam.
+
 ## Configurando o ambiente
   1. É necessário ter uma conta no GPC, e acesso ao terminal.
      Para esse desafio, instalei algumas ferramentas no ambiente, que estão em [Config](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Config)

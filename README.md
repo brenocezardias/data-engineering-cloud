@@ -27,17 +27,17 @@ Este repositório contém um projeto para o desafio técnico de criar um process
 ## Visualização
   Para visualização dos dados inseridos no banco, é possível ver um report em [Visualização](https://github.com/brenocezardias/dotz-desafio-  dados/tree/main/Visualiza%C3%A7%C3%A3o)
   ou apenas acesse através dos links abaixo:
-  **PRICE QUOTE:
+  **PRICE QUOTE:**
 
   https://datastudio.google.com/s/ls7PUQUezgA
 
-  **COMP BOSS:
+  **COMP BOSS:**
 
   https://datastudio.google.com/s/snonobAbXco
 
-  **BILL OF MATERIALS:
+  **BILL OF MATERIALS:**
 
   https://datastudio.google.com/s/pXNiaxpq_tg
   
   
-  **Obrigado !
+  **Obrigado !**

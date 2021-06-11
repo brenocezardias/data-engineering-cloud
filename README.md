@@ -1,63 +1,62 @@
-# Desafio ingestão de dados - Dotz
-Este repositório contém um projeto para o desafio técnico de criar um processo de ingestão de dados com as ferramentas do Google Cloud (GPC).
+# Data Ingest Challenge
+This repository contains a project for the technical challenge of creating a data ingestion process with Google Cloud tools (GPC).
 
-# Infraestrutura e ferramentas utilizadas
+# Infrastructure and tools used
   1. Google Cloud (GPC): 
   
-    - Data Flow (Ferramenta para ingestão dos dados no banco de dados), 
-    - Storage (Repositório dos arquivos CSV), 
-    - Big Query (Banco de dados), 
-    - Data Studio (Ferramenta para criação de relatórios).
+    - Data Flow (Tool for ingesting data in the database), 
+    - Storage (Repository of CSV files), 
+    - Big Query (Database), 
+    - Data Studio (Tool for creating reports).
   2. Python.
   3. Apache Beam.
 
-## Configurando o ambiente
-  1. É necessário ter uma conta no GPC, e acesso ao terminal.
-     Para esse desafio, instalei algumas ferramentas no ambiente, que estão em [Config](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Config)
-  >  Esse código foi testado no Python 3.7.3.
+## Setting up the environment
+  1. You must have a GPC account, and terminal access.
+     For this challenge, I installed some tools in the environment, which are in [Config](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Config)
+  >  This code has been tested on Python 3.7.3.
   
-   Se for necessário instalar as ferramentas, pode ser feito através do seguinte comando (com o arquivo em sua máquina):
+   If it is necessary to install the tools, it can be done through the following command (with the file on your machine):
   
      pip install -r ferramentas_instaladas.txt
   
-  2. Antes de iniciar o processo de ingestão dos dados no banco, é necessário criar as 3 tabelas no BigQuery (GPC). Para isso, olhar o schema de cada tabela em
+  2. Before starting the data ingestion process in the database, it is necessary to create the 3 tables in BigQuery (GPC). For this, look at the schema of each table in
      [Config](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Config)
   
-  3. Criar um bucket no Storage e incluir os arquivos CSV, presente em [Arquivos](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Arquivos)
+  3. Create a bucket on Storage and include the CSV files, present in [Arquivos](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Arquivos)
   
-  4. Iniciar o ambiente do Python, que pode ser feito através dos comandos abaixo (no terminal):
+  4. Start the Python environment, which can be done using the commands below (in terminal):
      
       ```pip3 install --upgrade virtualenv --user
       python3 -m virtualenv env
       source env/bin/activate
       pip3 install --quiet apache-beam[gcp]
   
-## Modelagem
-  Para entender um pouco melhor os dados que serão trabalhados nesse processo, é possível ver uma modelagem conceitual em
+## Modeling
+  To understand a little better the data that will be worked in this process, it is possible to see a conceptual modeling in
   [Modelagem](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Modelagem)
   
-## Rodando os scripts
+## Running scripts
   
-  1. Com o ambiente inciado, basta utilizar o script python, para que o processo de ingestão inicie, e o Job seja enviado para o Data Flow.
-  Veja o scritp em [Script](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Script)
+  1. With the environment started, just use the python script, so that the ingestion process starts, and the Job is sent to Data Flow.
+  See the script at [Script](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Script)
   
-  2. Antes da execução, é necessário configurar os dados de destino no script, que correspondem ao seu projeto no GPC, segue abaixo os trechos:
-  Linhas 66, 74, 80, 81, 82 ,83 ,84, 158, 166, 172, 173, 174, 175, 176, 247, 255, 261, 262, 263, 264, 265
+  2.Before execution, it is necessary to configure the target data in the script, which correspond to your project in the GPC, below are the excerpts:
+  lines 66, 74, 80, 81, 82 ,83 ,84, 158, 166, 172, 173, 174, 175, 176, 247, 255, 261, 262, 263, 264, 265
   
-  **Procure essas linhas no código, e altere conforme os dados do seu projeto !**
+  **Look for these lines in the code, and change as per your project data !**
   
-  3. Para rodar o script, basta inserir a linha de comando abaixo, no terminal:
+  3. To run the script, just enter the command line below in the terminal:
   `python processo_ingestao.py`
   
-  4. Aguardar a execução script, e pronto ! Os dados serão ingeridos no BigQuery.
+  4. Wait for the script execution, and that's it! The data will be ingested in the BigQuery.
   
   
-## Visualização
-  Para visualização dos dados inseridos no banco, é possível ver os relatórios em 
+## Data Viz
+  To view the data entered in the database, you can see the reports in 
   [Visualização](https://github.com/brenocezardias/dotz-desafio-dados/tree/main/Visualiza%C3%A7%C3%A3o)
   
-  
-  ou apenas acesse através dos links abaixo:
+  or just go through the links below.:
   
   **PRICE QUOTE:**
 
@@ -72,4 +71,4 @@ Este repositório contém um projeto para o desafio técnico de criar um process
   https://datastudio.google.com/s/pXNiaxpq_tg
   
   
-  **Obrigado !**
+  **Thanks !**
